@@ -7,10 +7,39 @@ div.jumbotron {
   text-align: center;
   font-family: chalkduster;
   font-size: 5em;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 navbar.text {
   color: rgb(0, 0, 0);
   font-style: strong;
+}
+
+nav.navbar {
+  background-color: #008B8B;
+  color: rgb(255, 255, 255);
+}
+li {
+  color: rgb(255, 255, 255);
+}
+
+.nav.navbar-nav li a{
+  color: rgb(0, 0, 0);
+  font-style: strong;
+}
+
+.navbar-brand{
+  color: rgb(0, 0, 0);
+  font-style: strong;
+}
+
+img {
+  align-content: center;
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+img.expand{
+  width: 50em;
 }
