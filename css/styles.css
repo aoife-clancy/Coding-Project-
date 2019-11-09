@@ -19,7 +19,7 @@ div.jumbotron {
 }
 
 div.information {
-  background-color: rgb(255, 255, 255);
+  background-color: #008b8b;
   width: 1200px;
   border: 15px darkblue;
   padding: 50px;
@@ -27,10 +27,11 @@ div.information {
   display: flex;
   font-family: chalkboard;
   font-size: 2em;
+  color: rgb(255, 255, 255);
 }
 
 div.box {
-  background-color: rgb(255, 255, 255);
+  background-color: #008b8b;
   width: 200px;
   length: 100px;
   border: 15px darkblue;
@@ -40,6 +41,7 @@ div.box {
   justify-content: space-between;
   font-family: chalkboard;
   font-size: 2em;
+  color: rgb(255, 255, 255);
 }
 
 div#botany {
