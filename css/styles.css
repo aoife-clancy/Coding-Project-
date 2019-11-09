@@ -17,3 +17,14 @@ div.jumbotron {
 .btn-Instagram{
   background: #E4405F;
 }
+
+div.information {
+  background-color: rgb(255, 255, 255);
+  width: 1200px;
+  border: 15px darkblue;
+  padding: 50px;
+  margin: 120px;
+  display: flex;
+  font-family: chalkboard;
+  font-size: 2em;
+}
