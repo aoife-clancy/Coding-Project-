@@ -18,6 +18,7 @@ div.jumbotron {
   background: #E4405F;
 }
 
+
 img:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
@@ -35,4 +36,40 @@ img:hover {
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+  
+div.information {
+  background-color: rgb(255, 255, 255);
+  width: 1200px;
+  border: 15px darkblue;
+  padding: 50px;
+  margin: 120px;
+  display: flex;
+  font-family: chalkboard;
+  font-size: 2em;
+}
+
+div.box {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  length: 100px;
+  border: 15px darkblue;
+  padding: 5px;
+  margin: 120px;
+  display: flex;
+  justify-content: space-between;
+  font-family: chalkboard;
+  font-size: 2em;
+}
+
+div#botany {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  length: 100px;
+  border: 15px darkblue;
+  padding: 5px;
+  margin: 60px;
+  font-family: chalkboard;
+  font-size: 2em;
 }
