@@ -76,10 +76,5 @@ img:hover {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-nav.navbar {
-  background-color: #008B8B;
-  color: rgb(255, 255, 255);
-}
-li {
-  color: rgb(255, 255, 255);
+
 }
