@@ -28,3 +28,29 @@ div.information {
   font-family: chalkboard;
   font-size: 2em;
 }
+
+div.box {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  length: 100px;
+  border: 15px darkblue;
+  padding: 5px;
+  margin: 120px;
+  display: flex;
+  justify-content: space-between;
+  font-family: chalkboard;
+  font-size: 2em;
+}
+
+div#botany {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  length: 100px;
+  border: 15px darkblue;
+  padding: 5px;
+  margin: 60px;
+  font-family: chalkboard;
+  font-size: 2em;
+}
