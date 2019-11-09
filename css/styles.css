@@ -83,3 +83,13 @@ nav.navbar {
 li {
   color: rgb(255, 255, 255);
 }
+
+.nav.navbar-nav li a{
+  color: rgb(0, 0, 0);
+  font-style: strong;
+}
+
+.navbar-brand{
+  color: rgb(0, 0, 0);
+  font-style: strong;
+}
