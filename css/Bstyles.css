@@ -6,15 +6,20 @@ div.jumbotron {
   background-color: rgb(255, 255, 255);
 }
 
+img.big{
+width: 65em;
+align-content: center;
+display: flex;
+padding: 20px;
+margin: 0 auto;
+}
 div.Botany-text {
   background-color: #008b8b;
-  width: 200px;
-  length: 100px;
+  width: 1200px;
   border: 15px darkblue;
-  padding: 5px;
+  padding: 50px;
   margin: 120px;
   display: flex;
-  justify-content: space-between;
   font-family: chalkboard;
   font-size: 2em;
   color: rgb(255, 255, 255);
@@ -38,5 +43,6 @@ div.Botany-text {
   border: 15px darkblue;
   padding: 5px;
   margin: 60px;
+
 
 }
