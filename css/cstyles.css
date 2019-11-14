@@ -51,7 +51,7 @@ div.knowledge {
   padding: 50px;
   margin: 120px;
   display: flex;
-  font-family: chalkboard;
+  font-family: Comic Sans MS;
   font-size: 2em;
   color: rgb(255, 255, 255);
 }
@@ -71,7 +71,7 @@ div.medicine{
   border: 15px darkblue;
   padding: 50px;
   margin: 120px;
-  font-family: chalkboard;
+  font-family: Comic Sans MS;
   font-size: 2em;
   color: rgb(255, 255, 255);
 }

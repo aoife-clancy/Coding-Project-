@@ -41,7 +41,7 @@ div.box {
   length: 100px;
   border: 15px darkblue;
   padding: 5px;
-  margin: 120px;
+  margin: 110px;
   display: flex;
   justify-content: space-between;
   font-family: chalkboard;
@@ -102,4 +102,25 @@ li {
 .navbar-brand{
   color: rgb(0, 0, 0);
   font-style: strong;
+}
+
+div#caption{
+  position: absolute;
+  right: 20px;
+  padding left: 50px;
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  background-color: #008b8b;
+  border: 15px darkblue;
+  width: 200px;
+  length: 100px;
+  font-family: chalkboard;
+  font-size: 2em;
+}
+
+div#socialbuttons{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
