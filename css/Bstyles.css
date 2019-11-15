@@ -3,7 +3,11 @@ body {
 }
 
 div.jumbotron {
-  background-color: rgb(255, 255, 255);
+  background-image: url(https://images.wallpaperscraft.com/image/roses_leaves_paint_123620_3840x2400.jpg);
+  text-align: center;
+  font-family: chalkduster;
+  font-size: 5em;
+  color: rgb(0, 0, 0);
 }
 
 img.big{
@@ -43,6 +47,27 @@ div.Botany-text {
   border: 15px darkblue;
   padding: 5px;
   margin: 60px;
+}
 
+navbar.text {
+  color: rgb(0, 0, 0);
+  font-style: strong;
+}
 
+nav.navbar {
+  background-color: #008B8B;
+  color: rgb(255, 255, 255);
+}
+li {
+  color: rgb(255, 255, 255);
+}
+
+.nav.navbar-nav li a{
+  color: rgb(0, 0, 0);
+  font-style: strong;
+}
+
+.navbar-brand{
+  color: rgb(0, 0, 0);
+  font-style: strong;
 }
