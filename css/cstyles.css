@@ -41,5 +41,54 @@ img {
 }
 
 img.expand{
-  width: 50em;
+  width: 75em;
+}
+
+div.knowledge {
+  background-color: #008b8b;
+  width: 1200px;
+  border: 15px darkblue;
+  padding: 50px;
+  margin: 120px;
+  display: flex;
+  font-family: Comic Sans MS;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+div.video {
+  width: 1200px;
+  border: 15px darkblue;
+  padding: 50px;
+  margin: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+div.medicine{
+  background-color: #008b8b;
+  width: 1200px;
+  border: 15px darkblue;
+  padding: 50px;
+  margin: 120px;
+  font-family: Comic Sans MS;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10%;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li#lower {
+  margin-top: 7%;
+}
+
+li#lowest {
+  margin-top: 14%;
 }
