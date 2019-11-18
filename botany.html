@@ -5,7 +5,7 @@
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="js//bootstrap.js"></script>
-    <script src="js//botany.js"></script>
+    <!--- script src="js//botany.js"></script> ---->
 
 
 </head>
@@ -33,16 +33,18 @@
 
  <!--First Image --->
 <div>
+<div class="container1">
 
 <img id="myImg" src="https://images-na.ssl-images-amazon.com/images/I/81KvPRkTu5L._SL1500_.jpg" alt= "Coffee comes from the seeds of trees in the genus 'Coffea'. While there are more than 120 species of 'Coffea', the most widely grown species, 'C. arabica' and 'C. canephora' account for more than 60% of world coffee production." style="width:100%; max-width:300px">
     <!-- The Modal -->
     <div id="myModal" class="modal">
       <!-- The Close Button -->
-      <span class="close">&times;</span>
+      <span class="close1">&times;</span>
       <!-- Modal Content (The Image) -->
       <img class="modal-content" id="img01">
       <!-- Modal Caption (Image Text) -->
       <div id="caption">Coffee</div>
+    </div>
     </div>
     <script>
 
@@ -59,7 +61,7 @@
       captionText.innerHTML = this.alt;
     }
     // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+    var span = document.getElementsByClassName("close1")[0];
     // When the user clicks on <span> (x), close the modal
     span.onclick = function() {
       modal.style.display = "none";
@@ -69,70 +71,86 @@
 
 <!--- Second Image -->
 <div>
-<img id="myImg2" src="https://i.pinimg.com/originals/55/88/34/558834b1e9608064955316eba89f8aae.jpg" alt= "Most garden roses are double flowered, meaning that they have a mutation giving them extra petals." style="width:100%; max-width:300px">
-    <div id="myModal2" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img02">
-      <div id="caption2">Rose</div>
-    </div>
-    <script>
 
-    var modal = document.getElementById("myModal2");
-    var img = document.getElementById("myImg2");
-    var modalImg = document.getElementById("img02");
-    var captionText = document.getElementById("caption2");
-    img.onclick = function(){
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-    }
-    var span = document.getElementsByClassName("close")[0];
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-    </script>
+<div class="container2">
+
+<img id="myImg2" src="https://i.pinimg.com/originals/55/88/34/558834b1e9608064955316eba89f8aae.jpg" alt= "Most garden roses are double flowered, meaning that they have a mutation giving them extra petals." style="width:100%; max-width:300px">
+<div id="myModal2" class="modal">
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img02">
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption2">Rose</div>
 </div>
+</div>
+</div>
+
+<script>
+
+// Get the modal
+var modal = document.getElementById("myModal2");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg2");
+var modalImg = document.getElementById("img02");
+var captionText = document.getElementById("caption2");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal2.style.display = "none";
+}
+</script>
 
 
 <!----Third Image ---->
 
 <div>
+<div class="container3">
+
 <img id="myImg3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bamboo_DSCN2465.jpg/1200px-Bamboo_DSCN2465.jpg" alt= "Bamboo is a grass and can grow up to 35 inches in a single day!" style="width:100%; max-width:300px">
-    <div id="myModal3" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img03">
-      <div id="caption3">Bamboo</div>
-    </div>
-    <script>
-
-    // Get the modal
-    var modal = document.getElementById("myModal3");
-
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.getElementById("myImg3");
-    var modalImg = document.getElementById("img03");
-    var captionText = document.getElementById("caption3");
-    img.onclick = function(){
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-    }
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-    </script>
+<div id="myModal3" class="modal">
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content3" id="img03">
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption3">Bamboo</div>
+</div>
 </div>
 
+  <script>
+  // Get the modal
+  var modal = document.getElementById("myModal3");
 
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById("myImg3");
+  var modalImg = document.getElementById("img03");
+  var captionText = document.getElementById("caption3");
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
 
-<div class=container>
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  </script>
+
+</div>
+
 <p>                </p>
-  </div>
 
 
 <div id="social-buttons">
