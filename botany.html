@@ -4,11 +4,14 @@
     <link href="css//Bstyles.css" rel="stylesheet">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="js//bootstrap.js"></script>
+    <script src="js//botany.js"></script>
+
+
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar navbar-dark navbar-fixed-top > <div class="container"> <class="text-white h4" > <div class="navbar-header"> <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a href="index.html" class="navbar-brand">Home</a> </div> <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <ul class="nav navbar-nav"> <li class="active"><a href="#">About Us <span class="sr-only">(current)</span></a></li> <li><a href="#">Contact</a></li> <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Topics <span class="caret"></span></a> <ul class="dropdown-menu"> <li><a href="#">Astronomy</a></li> <li><a href="chemistry.html">Chemistry</a></li> <li><a href="botany.html">Botany,</a></li> <li role="separator" class="divider"></li> <li><a href="#">Fun Facts</a></li> <li role="separator" class="divider"></li> <li><a href="#">Quiz</a></li> </ul> </li> </ul> <form class="navbar-form navbar-left"> <div class="form-group"> <input class="form-control" placeholder="Search"> </div> <button type="submit" class="btn btn-default">Submit</button> </form> <ul class="nav navbar-nav navbar-right"> <li><a href="#">Sign In</a></li> <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a> <ul class="dropdown-menu"> <li><a href="#">Profile</a></li> <li><a href="#">Preferences</a></li> <li><a href="#">Privacy</a></li> <li role="separator" class="divider"></li> <li><a href="#">Sign Out</a></li> </ul> </li> </ul> </div> </nav>
+  <nav class="navbar navbar-expand-sm navbar navbar-dark navbar-fixed-top > <div class="container"> <class="text-white h4" > <div class="navbar-header"> <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a href="index.html" class="navbar-brand">Home</a> </div> <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <ul class="nav navbar-nav"> <li class="active"><a href="#">About Us <span class="sr-only">(current)</span></a></li> <li><a href="#">Contact</a></li> <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Topics <span class="caret"></span></a> <ul class="dropdown-menu"> <li><a href="astronomy.html">Astronomy</a></li> <li><a href="chemistry.html">Chemistry</a></li> <li><a href="botany.html">Botany,</a></li> <li role="separator" class="divider"></li> <li><a href="#">Fun Facts</a></li> <li role="separator" class="divider"></li> <li><a href="#">Quiz</a></li> </ul> </li> </ul> <form class="navbar-form navbar-left"> <div class="form-group"> <input class="form-control" placeholder="Search"> </div> <button type="submit" class="btn btn-default">Submit</button> </form> <ul class="nav navbar-nav navbar-right"> <li><a href="#">Sign In</a></li> <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a> <ul class="dropdown-menu"> <li><a href="#">Profile</a></li> <li><a href="#">Preferences</a></li> <li><a href="#">Privacy</a></li> <li role="separator" class="divider"></li> <li><a href="#">Sign Out</a></li> </ul> </li> </ul> </div> </nav>
   <div class="container">
     <div class="jumbotron">
     <h1>Botany</h1>
@@ -28,18 +31,109 @@
   </div>
 </div>
 
+ <!--First Image --->
+<div>
 
-<div id="Coffee" class="text-center">
-  <div class="col-sm-4">
-    <a href="Coffee">
-    <img src="https://images-na.ssl-images-amazon.com/images/I/81KvPRkTu5L._SL1500_.jpg" class = img-circle
-  </a>
-    <div class=box>
-      <div class=col-sm-4>
-      <h3><strong>Coffea arabica</strong></h3>
+<img id="myImg" src="https://images-na.ssl-images-amazon.com/images/I/81KvPRkTu5L._SL1500_.jpg" alt= "Coffee comes from the seeds of trees in the genus 'Coffea'. While there are more than 120 species of 'Coffea', the most widely grown species, 'C. arabica' and 'C. canephora' account for more than 60% of world coffee production." style="width:100%; max-width:300px">
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- The Close Button -->
+      <span class="close">&times;</span>
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="img01">
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption">Coffee</div>
     </div>
-  </div>
+    <script>
+
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    </script>
 </div>
+
+<!--- Second Image -->
+<div>
+<img id="myImg2" src="https://i.pinimg.com/originals/55/88/34/558834b1e9608064955316eba89f8aae.jpg" alt= "Most garden roses are double flowered, meaning that they have a mutation giving them extra petals." style="width:100%; max-width:300px">
+    <div id="myModal2" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img02">
+      <div id="caption2">Rose</div>
+    </div>
+    <script>
+
+    var modal = document.getElementById("myModal2");
+    var img = document.getElementById("myImg2");
+    var modalImg = document.getElementById("img02");
+    var captionText = document.getElementById("caption2");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    </script>
+</div>
+
+
+<!----Third Image ---->
+
+<div>
+<img id="myImg3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bamboo_DSCN2465.jpg/1200px-Bamboo_DSCN2465.jpg" alt= "Bamboo is a grass and can grow up to 35 inches in a single day!" style="width:100%; max-width:300px">
+    <div id="myModal3" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img03">
+      <div id="caption3">Bamboo</div>
+    </div>
+    <script>
+
+    // Get the modal
+    var modal = document.getElementById("myModal3");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg3");
+    var modalImg = document.getElementById("img03");
+    var captionText = document.getElementById("caption3");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    </script>
+</div>
+
+
+
+<div class=container>
+<p>                </p>
+  </div>
+
 
 <div id="social-buttons">
       <button class='btn btn-lg btn-twitter'>Twitter</button>
