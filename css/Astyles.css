@@ -1,3 +1,71 @@
 body{
   background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/08/01/19/space-milky-way.jpg);
 }
+
+navbar.text {
+  color: rgb(0, 0, 0);
+  font-style: strong;
+}
+
+nav.navbar {
+  background-color: #008B8B;
+  color: rgb(255, 255, 255);
+}
+li {
+  color: rgb(255, 255, 255);
+}
+
+.nav.navbar-nav li a{
+  color: rgb(0, 0, 0);
+  font-style: strong;
+}
+
+.navbar-brand{
+  color: rgb(0, 0, 0);
+  font-style: strong;
+}
+
+div.jumbotron {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: chalkduster;
+  font-size: 5em;
+  color: rgb(255, 255, 255);
+}
+
+div.info {
+  background-color: #008b8b;
+  width: 1200px;
+  border: 15px darkblue;
+  padding: 50px;
+  margin: 120px;
+  display: flex;
+  font-family: Comic Sans MS;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+img {
+  align-content: center;
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+div.planets {
+  background-color: #008b8b;
+  width: 1200px;
+  border: 15px darkblue;
+  padding: 50px;
+  margin: 120px;
+  display: flex;
+  font-family: Comic Sans MS;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+.twitter-timeline {
+  display: flex;
+  align-items: flex-start;
+  margin: 120px
+}

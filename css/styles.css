@@ -119,8 +119,12 @@ div#caption{
   font-size: 2em;
 }
 
-div#socialbuttons{
+#social-buttons{
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#social-buttons button {
+  color: white;
 }
