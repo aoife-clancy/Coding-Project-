@@ -69,3 +69,7 @@ div.planets {
   align-items: flex-start;
   margin: 120px
 }
+
+img.expand{
+  width: 15em;
+}
