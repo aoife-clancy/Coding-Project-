@@ -99,7 +99,7 @@ div.Botany-text {
 }
 
 /* The Close Button */
-.close {
+.close1 {
   position: absolute;
   top: 50px;
   right: 35px;
@@ -109,8 +109,8 @@ div.Botany-text {
   transition: 0.3s;
 }
 
-.close:hover,
-.close:focus {
+.close1:hover,
+.close1:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
